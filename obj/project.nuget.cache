@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "r36WLehKiK4=",
+  "success": true,
+  "projectFilePath": "E:\\PTPMQL\\DemoMVC\\DemoMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Long-Vu\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.7\\microsoft.entityframeworkcore.tools.9.0.7.nupkg.sha512",
+    "C:\\Users\\Long-Vu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Long-Vu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\Long-Vu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Long-Vu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

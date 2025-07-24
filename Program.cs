@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using BaiKiemTraKy072025.Data; 
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<BaiKiemTraKy072025ApplicationDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("BaiKiemTraKy072025ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'BaiKiemTraKy072025ApplicationDbContext' not found.")));
 
 
 builder.Services.AddControllersWithViews();
